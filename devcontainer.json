@@ -5,5 +5,6 @@
     "terminal.integrated.defaultProfile.linux": "bash"
   },
   "extensions": ["golang.go"], // Add useful extensions
-  "postCreateCommand": "go mod tidy" // Ensure dependencies are set up
+  "postCreateCommand": "apt-get update && apt-get install -y netcat && go mod tidy" // Ensure Netcat is installed and dependencies are set up
 }
+
