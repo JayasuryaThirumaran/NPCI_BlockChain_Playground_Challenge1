@@ -21,13 +21,13 @@ Just three commands need to work:```
 /users  - See who's online
 /quit   - Leave the chat
 hello   - Send "hello" to everyone
-```
 
 ## Getting Started
 1. Start with the provided code below
-2. Run the server: `go run server.go`
-3. Connect using netcat: `nc localhost 8080`
-4. Type messages to chat!
+2. run the command: `sudo apt update && sudo apt install -y netcat` to install the netcat package
+3.  Run the server: `go run server.go`
+4. Connect using netcat: `nc localhost 8080`
+5. Type messages to chat!
 
 ## What You Need to Know
 - Basic Go syntax
